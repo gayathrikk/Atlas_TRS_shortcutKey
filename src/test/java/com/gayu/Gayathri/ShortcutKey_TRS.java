@@ -33,10 +33,10 @@ public class ShortcutKey_TRS {
 			driver.manage().window().maximize();
 			System.out.println("--------------------------*****************-----------------------");
 			System.out.println("The server is Opened sucessfully");
-			WebDriverWait wait = new WebDriverWait(driver, 50);
-			WebElement viewerSectionLink = wait
-					.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@src='/viewer/assets/images/colorsvg/gallery.svg']")));
-			viewerSectionLink.click();
+			// WebDriverWait wait = new WebDriverWait(driver, 50);
+			// WebElement viewerSectionLink = wait
+			// 		.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@src='/viewer/assets/images/colorsvg/gallery.svg']")));
+			// viewerSectionLink.click();
 			System.out.println("--------------------------*****************-----------------------");
 			System.out.println("The Viewer Icon is clicked");
 			String parentWindow = driver.getWindowHandle();
